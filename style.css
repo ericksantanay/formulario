@@ -43,10 +43,12 @@ body{
     justify-content: flex-start;
     flex-direction: column;
     margin: 0px 5px;
+   color: rgb(57, 11, 137);
 }
 
 .campo-digitação-email{
     margin-left: 60px;
+    color: rgb(57, 11, 137);
 }
 
 .campo-digitação-email > input{
@@ -84,11 +86,12 @@ body{
 }
 
 
-.tecnologia-usada > label{
+.tecnologia-usada > label {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-left: 65px;
+   color: rgb(57, 11, 137);
 }
 
 #senior{
@@ -98,17 +101,15 @@ body{
     margin: 10px;
     margin-bottom: 10px;  
     margin-left: 65px;
+    color: rgb(57, 11, 137);
 }
+
 
 #selecione{
     display: flex;
     align-items: center;
     margin-left: 65px;
     margin-bottom: 10px;
-}
-
-#selecione:hover{
-    
 }
 
 .tecnologia-ultiliada{
@@ -142,36 +143,3 @@ body{
 .btn:hover{
     background-color: rgb(20, 156, 20);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
