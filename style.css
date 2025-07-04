@@ -18,6 +18,7 @@ body{
 }
 
 .card > h1{
+    margin: 0;
     color: blueviolet;
     text-align: center;
 }
@@ -28,6 +29,8 @@ body{
 }
 
 .grupo{
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,11 +43,10 @@ body{
     justify-content: flex-start;
     flex-direction: column;
     margin: 0px 5px;
-    
 }
 
 .campo-digitação-email{
-    margin-left: 110px;
+    margin-left: 60px;
 }
 
 .campo-digitação-email > input{
@@ -86,7 +88,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 110px;
+    margin-left: 65px;
 }
 
 #senior{
@@ -95,27 +97,51 @@ body{
     flex-direction: column;
     margin: 10px;
     margin-bottom: 10px;  
-    margin-left: 110px;
+    margin-left: 65px;
 }
 
 #selecione{
     display: flex;
     align-items: center;
-    margin-left: 110px;
+    margin-left: 65px;
     margin-bottom: 10px;
 }
 
+#selecione:hover{
+    
+}
+
 .tecnologia-ultiliada{
-    margin-left: 110px
+    margin-left: 65px
+}
+
+.tecnologia-ultiliada > input{
+    cursor: pointer;
 }
 
 .suas-experiencias{
-    margin-left: 110px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+.btn{
+    width: 150px;
+    margin-bottom: 10px;
+    margin-left: 160px;
+    padding: 10px;
+    background-color: green;
+    color: #ffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
 
-
-
+.btn:hover{
+    background-color: rgb(20, 156, 20);
+}
 
 
 
