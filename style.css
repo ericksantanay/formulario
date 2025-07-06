@@ -53,6 +53,7 @@ body{
     flex-direction: column;
     margin: 0px 5px;
    color: rgb(57, 11, 137);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .campo-digitação-email{
