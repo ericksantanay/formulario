@@ -59,6 +59,7 @@ body{
 .campo-digitação-email{
     margin-left: 60px;
     color: rgb(57, 11, 137);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .campo-digitação-email > input{
